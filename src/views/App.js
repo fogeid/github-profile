@@ -15,8 +15,6 @@ function App() {
       .then(r => setUserData(r));
   };
 
-  console.log(userData);
-
   const handleChange = (e) => {
     setSearch(e.target.value);
   };
@@ -67,7 +65,7 @@ function App() {
         </div>
       )}
       <footer className="footer">
-        <p>2021 © Developed by Diego Batista</p>
+        <p>2021 © Developed by <a href="https://fogeid.github.io/" target="_new">Diego Batista</a></p>
       </footer>
     </div>
   );
