@@ -12,5 +12,9 @@ export const ProfileWrapper = styled.div`
   .sc-gsDJrp {
     margin: 20px 0 30px 0;
   }
+
+  .sc-bqiQRQ {
+    margin-top: auto;
+  }
 `;
 

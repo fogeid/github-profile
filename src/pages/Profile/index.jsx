@@ -10,9 +10,9 @@ function Profile() {
   return (
     <>
       <ProfileWrapper>
-        <Logo className="x-logo" />
-        <Select className="x-select" />
-        <ProfileDetails className="x-profile" />
+        <Logo />
+        <Select />
+        <ProfileDetails />
         <Footer />
       </ProfileWrapper>
     </>
