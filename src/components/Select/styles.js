@@ -16,9 +16,9 @@ Form.Div.Input = styled.input`
 `;
 
 Form.Div.Button = styled.button`
-  padding: 10px 20px;
+  padding: 9px 20px;
   border-radius: 0 2px 2px 0;
-  border: none;
+  border: 0.5px solid var(--color-text-secondary);
   outline: none;
   position: relative;
   left: -12px;

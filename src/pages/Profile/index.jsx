@@ -10,6 +10,7 @@ function Profile() {
     <>
       <Logo />
       <Select />
+      <ProfileDetails />
     </>
   );
 }
