@@ -1,11 +1,11 @@
+import { H1 } from './styles';
+
 function Logo() {
   return (
-    <Header>
-      <h1>
+      <H1>
         <span>Github</span> Profile
-      </h1>
-    </Header>
+      </H1>
   );
 };
 
-export default Logo();
+export default Logo;
