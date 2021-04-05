@@ -1,10 +1,7 @@
 import React, { useState } from 'react';
-import './App.css';
-import mapPin from '../assets/map-pin.png';
-import briefcase from '../assets/briefcase.png';
-import globe from '../assets/globe.png';
+import './index.css';
 
-function App() {
+function Profile() {
   const [search, setSearch] = useState('');
   const [userData, setUserData] = useState();
 
@@ -42,17 +39,17 @@ function App() {
           <p className="user__description">{userData.bio}</p>
           <div className="user__infos">
             <div className="user__infos__item">
-              <img src={mapPin} alt="Pin Localization" />
+              {/* <img src={} alt="Pin Localization" /> */}
               <p>{userData.location}</p>
             </div>
 
             <div className="user__infos__item">
-              <img src={briefcase} alt="Company" />
+              {/* <img src={} alt="Company" /> */}
               <p>{userData.company}</p>
             </div>
 
             <div className="user__infos__item">
-              <img src={globe} alt="Website" />
+              {/* <img src={} alt="Website" /> */}
               <a href={userData.blog} target="_new">{userData.blog}</a>
             </div>
           </div>
@@ -71,4 +68,4 @@ function App() {
   );
 }
 
-export default App;
+export default Profile;
