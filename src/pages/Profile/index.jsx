@@ -1,16 +1,20 @@
-import { useState } from 'react';
 import Logo from '../../components/Logo';
 import Select from '../../components/Select';
 import ProfileDetails from '../../components/ProfileDetails';
+import Footer from '../../components/Footer';
+
+import { ProfileWrapper } from './styles.js';
 
 function Profile() {
-  const [search, setSearch] = useState('');
 
   return (
     <>
-      <Logo />
-      <Select />
-      <ProfileDetails />
+      <ProfileWrapper>
+        <Logo className="x-logo" />
+        <Select className="x-select" />
+        <ProfileDetails className="x-profile" />
+        <Footer />
+      </ProfileWrapper>
     </>
   );
 }

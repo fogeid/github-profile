@@ -7,7 +7,6 @@ export const Section = styled.section`
   align-items: center;
   font-family: var(--font-primary);
   margin: 0 auto;
-  color: white;
 `;
 
 Section.Img = styled.img`
@@ -52,6 +51,8 @@ Section.Div = styled.div`
     justify-content: space-between;
     align-items: center;
     margin: 0 20px;
+    color: var(--color-text-light);
+
 
     svg {
       margin-right: 5px;
