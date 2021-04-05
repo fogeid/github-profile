@@ -6,6 +6,15 @@ export default createGlobalStyle`
     License: none (public domain)
   */
 
+  :root {
+    --color-primary: #090c10;
+    --color-secondary: #161B22;
+    --color-third: #161B22;
+    --color-text-primary: #05ff00;
+    --color-text-secondary: #C9D1D9;
+    --font-primary: 'Open Sans', sans-serif;
+  }
+
   html,
   body,
   div,
